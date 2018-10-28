@@ -1,5 +1,5 @@
 Project name:
-Stream Server 1.0
+Stream Server (Still picture)
 
 Description:
 Server for streaming HTTP Live Stream and still picture to YouTube Live.
