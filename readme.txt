@@ -10,11 +10,16 @@ Requirements:
 "ffmpeg" 3.3 or later
 nano text editer
 
-Aliases for shell commands (in ~/.bashrc):
-alias start='bash /root/stream/scripts/start-stream.sh'
-alias stop='bash /root/stream/scripts/stop-stream.sh'
-alias restart='bash /root/stream/scripts/restart-stream.sh'
-alias edit='nano /root/stream/scripts/stream.sh'
+Installation:
+Download or clone repository to home directory of root user
+Rename "ffmpeg-youtube-stream" directory to "stream"
+Make scripts executable in stream/scripts
+Create cronjob for /stream/scripts/log-cleanup.sh
+Add aliases for shell commands to bashrc:
+	alias start='bash /root/stream/scripts/start-stream.sh'
+	alias stop='bash /root/stream/scripts/stop-stream.sh'
+	alias restart='bash /root/stream/scripts/restart-stream.sh'
+	alias edit='nano /root/stream/scripts/stream.sh'
 
 Shell commands:
 To start streaming type "start"
@@ -31,4 +36,4 @@ scripts - log-cleanup.sh (Cleans log files except last created)
 	  restart-stream.sh (Stops screen named "stream" and runs start-stream.sh)
 	  stream.sh (Stream settings)
 
-Created and tested on Ubuntu 16.04 LTS
+Created and tested on Ubuntu 16.04 LTS and FFmpeg 3.3
