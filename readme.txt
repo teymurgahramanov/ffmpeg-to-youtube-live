@@ -11,8 +11,7 @@ Requirements:
 nano text editer
 
 Installation:
-Download or clone repository to home directory of root user
-Rename "ffmpeg-youtube-stream" directory to "stream"
+Download or clone repository to /root/stream
 Make scripts executable in stream/scripts
 Create cronjob for /stream/scripts/log-cleanup.sh
 Add aliases for shell commands to bashrc:
