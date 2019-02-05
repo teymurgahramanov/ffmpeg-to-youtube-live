@@ -2,7 +2,7 @@ Project name:
 Stream Server (Still picture)
 
 Description:
-Server for streaming HTTP Live Stream and still picture to YouTube Live.
+Stream HTTP Live Stream and still picture to YouTube Live.
 
 Requirements:
 "stream" folder must be placed in "/root"
