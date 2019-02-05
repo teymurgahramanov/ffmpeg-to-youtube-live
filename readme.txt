@@ -1,5 +1,5 @@
 Project name:
-Ffmpeg to YouTube Live (Still picture)
+FFmpeg to YouTube Live (Still picture)
 
 Description:
 Stream HTTP Live Stream and still picture to YouTube Live.
